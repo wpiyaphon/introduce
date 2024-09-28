@@ -2,9 +2,10 @@
 export const content = ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"];
 export const theme = {
   fontFamily: {
-    sans: [
-      'LineSeed',
-    ]
-  }
+    sans: ["LineSeed"],
+  },
+  container: {
+    center: true,
+  },
 };
 export const plugins = [];
