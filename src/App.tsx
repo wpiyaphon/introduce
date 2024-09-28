@@ -1,16 +1,10 @@
-import { Button } from "./components/ui/button"
+import { IntroNav } from "./sections/intro/intro-nav";
 
 function App() {
+  const count = 0;
+  console.log("🚀 ~ App ~ count:", count);
 
-
-  return (
-    <div className=" flex flex-row">
-      <div className="basis-1/4">01</div>
-      <div className="basis-1/4">02</div>
-      <div className="basis-1/2">03</div>
-      <Button variant="destructive">Destructive</Button>
-    </div>
-  )
+  return <IntroNav />;
 }
 
-export default App
+export default App;
